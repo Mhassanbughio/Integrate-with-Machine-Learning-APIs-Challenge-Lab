@@ -1,3 +1,6 @@
 
 Run in Cloud Shell
 
+export SANAME=challenge
+gcloud iam service-accounts create $SANAME
+
