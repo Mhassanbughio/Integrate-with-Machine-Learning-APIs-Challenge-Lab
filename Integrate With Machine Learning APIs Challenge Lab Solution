@@ -223,3 +223,7 @@ errors = bq_client.insert_rows(table, rows_for_bq)
 
 assert errors == []
 
+
+
+In Cloud Shell run
+
