@@ -11,3 +11,5 @@ gcloud iam service-accounts keys create sa-key.json --iam-account $SANAME@$DEVSH
 export GOOGLE_APPLICATION_CREDENTIALS=${PWD}/sa-key.json
 gsutil cp gs://$DEVSHELL_PROJECT_ID/analyze-images.py .
 
+####################################################################
+Open Editor and replace the content of "analyze-images.py" file with
